@@ -83,5 +83,44 @@
 
 .seta {
   margin-top: 55%;
+  cursor: pointer;
+}
+.seta:hover {
+  transform: translateY(-5px); /*Transação*/
+  transition-duration: 0.3s; /*Duração*/
+}
+#secao_formulario {
+  padding: 50px;
+  text-align: center;
+}
+#secao_formulario h1 {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#formulario input {
+  width: 400px;
+  height: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #EAECE5;
+  color: #383838;
+  border: none;
+  border-radius: 8px;
+  padding-left: 5px;
+}
+#formulario button {
+  background-color: #247ba0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 335px;
+  height: 53px;
+  margin-top: 25px;
 }
