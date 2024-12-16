@@ -67,11 +67,11 @@
   margin-top: 25px;
   display: grid;
   grid-auto-flow: column;
+  columns: auto;
 }
 
 .card {
   margin-left: 50px;
-  border: solid 1px red;
 }
 
 #bruna {
@@ -84,5 +84,4 @@
 .seta {
   margin-top: 55%;
 
-  border: 1px solid red;
 }
