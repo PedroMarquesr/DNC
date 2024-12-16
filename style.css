@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+#menu_superior {
+  background-image: url(assets/bg-menusuperior.svg);
+  color: #ffffff;
+  height: 470px;
+}
+#icon_dnc {
+  margin: 52px 0 0 56px;
+}
+
+#titulo_menusuperior {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+#paragrafo_menusuperior {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+#menu_informativo {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icone {
+  margin: 50px 0px 50px 100px;
+  padding: 10px;
+}
+
+.paragrafo_menuinformativo {
+  display: flex;
+  align-items: center;
+}
+
+#secao_video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+#video {
+  margin: 50px 25px 50px 100px;
+}
+#texto_video {
+  margin-top: 50px;
+}
+#titulo_video {
+  color: #247ba0;
+}
+
+#carrossel {
+  background-color: #247ba0;
+  color: white;
+  padding: 50px;
+}
+#titulo_carrossel {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+#div_cards {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.card {
+  margin-left: 50px;
+  border: solid 1px red;
+}
+
+#bruna {
+  display: none;
+}
+#seta-esquerda {
+  display: none;
+}
+
+.seta {
+  margin-top: 55%;
+
+  border: 1px solid red;
+}
