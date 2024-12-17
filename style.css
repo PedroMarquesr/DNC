@@ -9,7 +9,7 @@ body {
 #menu_superior {
   background-image: url(assets/bg-menusuperior.svg);
   color: #ffffff;
-  height: 470px;
+  padding-bottom: 55px;
   width: 100vw;
 }
 
@@ -139,8 +139,18 @@ body {
 
 @media (max-width: 768px) {
   #icon_dnc {
-    margin: 11px 11px 148px 350px;
+    margin-top: 1.57vh;
+    margin-left: 70vw;
   }
+  #titulo_menusuperior {
+    margin-top: 5.42vh;
+    margin-left: 4.6vw;
+  }
+  #paragrafo_menusuperior {
+    margin-top: 5.42vh;
+    margin-left: 4.6vw;
+  }
+
   #div_cards {
     display: none;
   }
