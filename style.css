@@ -48,6 +48,9 @@ body {
   grid-auto-flow: column;
   columns: auto;
 }
+#mb-secao_video {
+  display: none;
+}
 #video {
   margin: 50px 25px 50px 100px;
 }
@@ -140,7 +143,7 @@ body {
 @media (max-width: 768px) {
   #icon_dnc {
     margin-top: 1.57vh;
-    margin-left: 70vw;
+    margin-left: 68vw;
   }
   #titulo_menusuperior {
     margin-top: 5.42vh;
@@ -149,6 +152,16 @@ body {
   #paragrafo_menusuperior {
     margin-top: 5.42vh;
     margin-left: 4.6vw;
+  }
+
+  #menu_informativo {
+    background-color: #eaece5;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icone {
+    margin: 2.85vh 0 2.85vh 0;
   }
 
   #div_cards {
@@ -160,12 +173,25 @@ body {
     flex-direction: column;
   }
   #secao_video {
+    display: none;
+  }
+  #mb-secao_video {
+    padding-top: 2.57vh;
+    padding-bottom: 4vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #mb-secao_video p,
+  #mb-secao_video h1 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
   }
   #video {
-    width: 26.15vw;
+    width: 350px;
     height: 26.2vh;
+    margin: 0 auto; /* Centraliza horizontalmente */
   }
   #mb-div_cards {
     display: flex;
