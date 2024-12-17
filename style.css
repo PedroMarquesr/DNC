@@ -112,6 +112,7 @@ body {
   margin-bottom: 25px;
   font-size: 25px;
 }
+
 #formulario {
   display: flex;
   flex-direction: column;
@@ -128,6 +129,11 @@ body {
   border: none;
   border-radius: 8px;
   padding-left: 5px;
+  border: 1px solid white;
+}
+#formulario input:hover {
+  border: 1px solid #247ba0;
+  transition-duration: 0.5s;
 }
 #formulario button {
   background-color: #247ba0;
@@ -138,6 +144,13 @@ body {
   width: 335px;
   height: 53px;
   margin-top: 25px;
+  cursor: pointer;
+}
+#formulario button:hover {
+  transform: translateY(-1px);
+  opacity: 90%;
+  transition-duration: 0.2s;
+  box-shadow: 0 10px 15px #245f79;
 }
 
 @media (max-width: 768px) {
