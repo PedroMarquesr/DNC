@@ -165,7 +165,11 @@
     </div>
     <div id="secao_formulario">
       <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
-      <form action="" method="post" id="formulario">
+      <form
+        action="https://api.sheetmonkey.io/form/6JLHaYFXswSHt1pxmM2NNb"
+        method="post"
+        id="formulario"
+      >
         <input type="text" id="nome" name="nome" placeholder="Nome" />
         <input
           type="email"
@@ -179,9 +183,15 @@
           name="tel"
           placeholder="Número de telefone"
         />
+        <input
+          type="hidden"
+          name="Created"
+          value="x-sheetmonkey-current-date-time"
+        />
+
         <button type="submit">Acesse a ementa grátis</button>
       </form>
     </div>
-    <script src="index.js"></script>
+    <script src="index.js" value="Sign Up"></script>
   </body>
 </html>
